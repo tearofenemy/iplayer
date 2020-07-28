@@ -1,3 +1,7 @@
+import { videoPlayerInit } from './videoPlayer.js';
+import { musicPlayerInit } from './musicPlayer.js';
+import { radioPlayerInit } from './radioPlayer.js';
+
 const playerBtn = document.querySelectorAll('.player-btn');
 const playerBlock = document.querySelectorAll('.player-block');
 const temp = document.querySelector('.temp');
@@ -17,3 +21,7 @@ playerBtn.forEach((btn, index) => {
         playerBlock[index].classList.add('active');
     });
 });
+
+videoPlayerInit();
+radioPlayerInit();
+musicPlayerInit();
