@@ -1,12 +1,4 @@
 export const videoPlayerInit = () => {
-    /**
-     * video-player
-     * video-button__play
-     * video-button__stop
-     * video-progress
-     * video-time__total
-     * video-time__passed
-     */
 
     const videoPlayer = document.querySelector('.video-player');
     const videoButtonPlay = document.querySelector('.video-button__play');
